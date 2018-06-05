@@ -1,4 +1,5 @@
-# 1. JSX là gì ? javascript syntax extension? . Cú pháp mở rộng???
+[1. JSX là gì ? javascript syntax extension? . Cú pháp mở rộng???](#what-is-jSX)
+# What Is JSX
 * HTML là 1 ngôn ngữ đánh dấu diêu văn bản. file html là kiểu file text có cấu trúc, sử dụng ngôn ngữ đánh dấu. cùng js,css giúp Brower đọc, để hiển thị trang web.
 * JSX là cú pháp mở rộng của js nó mô tả có thể mô tả cách trang web hiển thị, và đầy đủ chức năng của giao giao diên ứng dụng:
 (how events are handled, how the state changes over time, and how the data is prepared for display.) => cách event đc xử lý, thay đổi trong thái theo thời gian, chuẩn bị dữ liệu hiển thị 
