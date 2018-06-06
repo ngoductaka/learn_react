@@ -47,4 +47,45 @@ ReactDOM.render(
 
 # Composing Components
 ` components có thể gọi tới các components khác => chia nhỏ hết cỡ để tái sử dụng ???'
+* Nên chia component to thành các component nhỏ vừa đủ 
+  * vừa đủ : props đầu vào là 1 object trong object có các object con thì nên chia object con này thành 1 com component để xử lý 
+  * để component chỉ nhận đầu vào props theo kiểu object literal 
+```javascript 
+const comment = {
+  date: new Date(),
+  text: 'I hope you enjoy learning React!',
+  author: {
+    name: 'Hello Kitty',
+    avatarUrl: 'http://placekitten.com/g/64/64',
+  },
+};
+```
+=> chia 1 component để xử lý props.author 
+
+```javascript
+<Comment
+    date={comment.date}
+    text={comment.text}
+    author={comment.author}
+/>,
+// => chia ra 
+      <UserInfo user={props.author} />
+      <div className="Comment-text">{props.text}</div>
+      <div className="Comment-date">
+        {formatDate(props.date)}
+      </div>
+// chia UserInfo hơn
+    <div className="UserInfo">
+      <Avatar user={props.user} />
+      <div className="UserInfo-name">{props.user.name}</div>
+    </div>
+    
+```
+
+  
+  
+  
+  
+  
+  
 
