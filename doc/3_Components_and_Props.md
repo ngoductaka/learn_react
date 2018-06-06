@@ -46,6 +46,5 @@ ReactDOM.render(
 ` lưu ý là compoment cần viết hoa để react ko nhầm lẫn vs DOM HTML 
 
 # Composing Components
-` components có thể gọi tới các components khác => chia nhỏ hết cỡ để tái sử dụng ???
+` components có thể gọi tới các components khác => chia nhỏ hết cỡ để tái sử dụng ???'
 
-### My Multi Word Header
