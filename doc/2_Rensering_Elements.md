@@ -1,3 +1,4 @@
+source : https://reactjs.org/docs/rendering-elements.html
 ` Brower dùng DOM element ( document object model) để định nghĩa các thành phần, đơn vị để tạo trang web )
 React DOM dùng các object là đơn vị để tạo trang web `
 # rendering an element into DOM
